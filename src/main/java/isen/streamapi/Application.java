@@ -11,11 +11,11 @@ public class Application {
         
         DemographicCalculator calculator = new DemographicCalculator("fakenames.csv");
         // calculator.printWomen();
-        // calculator.printAverageAge();
+        calculator.printAverageAge();
         // calculator.printCountByCity();
         // calculator.printAverageAgeOfMalesByCity();
         // calculator.printMaxAge();
-        calculator.printOldestPerson();
+        // calculator.printOldestPerson();
 
     }
 }

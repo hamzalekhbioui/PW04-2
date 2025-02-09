@@ -36,7 +36,7 @@ public class DemographicCalculator {
 
 	public void printAverageAge() {
         people.stream()
-			.map(DemographicCalculator::getAge)  
+			.mapToInt(DemographicCalculator::getAge)  
 			.average()  
 			.ifPresent(avg -> printer.print("Average Age: " + avg));  
 	}
